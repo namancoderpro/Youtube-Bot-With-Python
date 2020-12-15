@@ -2,10 +2,10 @@
 A Youtube Bot built with Python (Selenium), it automates the Login, Watch, Like, and subscribe processes. 
 
 ![](https://i.ibb.co/ZhYWcK3/Pink-and-Purple-Sporty-Gradient-Fitness-You-Tube-Thumbnail.png)
-
+```
 usage: youtubeBot.py [-h] --accounts ACCOUNTS [--videos VIDEOS] [--channels CHANNELS] [--like [LIKE]]
 
-                     [--subscribe [SUBSCRIBE]] [--watch [WATCH]]
+                     --subscribe [SUBSCRIBE]] [--watch [WATCH]
 
 A Youtube Bot Built With Python | It does: Watching, Liking videos & Subscribing to channnels.
 
@@ -24,7 +24,7 @@ optional arguments:
   --subscribe [SUBSCRIBE]    To subscribe to the channels in the list.
                         
   --watch [WATCH]       To watch the videos in the list.
-
+```
 <br>
 
 ## Tutorial On Youtube:
