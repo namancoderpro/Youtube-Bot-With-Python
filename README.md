@@ -25,7 +25,16 @@ optional arguments:
                         
   --watch [WATCH]       To watch the videos in the list.
 ```
-<br>
+---
+### Examples:
+
+- To only subscribe to a list of Youtube channels: python youtubeBot.py --accounts accounts.txt --channels channels.txt --subscribe 
+
+- To only watch video: python youtubeBot.py --accounts accounts.txt --videos videos.txt --watch
+
+- To only watch & like the video: python youtubeBot.py --accounts accounts.txt --videos videos.txt --watch --like
+
+- To subscribe to a list of Youtube channels & watch and like a list of videos: python youtubeBot.py --accounts accounts.txt --channels channels.txt --subscribe  --videos videos.txt --watch --like
 
 ## Tutorial On Youtube:
 [Watch Here]()
